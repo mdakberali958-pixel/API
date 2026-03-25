@@ -1,4 +1,1 @@
-fastapi
-uvicorn[standard]
-scikit-learn
-pydantic
+-r backend/requirements.txt
