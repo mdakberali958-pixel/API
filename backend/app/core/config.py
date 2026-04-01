@@ -11,6 +11,8 @@ class Settings(BaseSettings):
     chroma_persist_dir: str = "./data/chroma"
     llm_model_standard: str = "gpt-4o-mini"
     llm_model_verified: str = "gpt-4.1-mini"
+    gemini_api_key: str = ""
+    mongo_uri: str = ""
 
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8")
 
